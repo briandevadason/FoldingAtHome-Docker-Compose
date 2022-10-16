@@ -14,7 +14,7 @@ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /nores
 "Enabling WSL feature"
 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 
-cd $home\downloads\FAHInstallerScripts
+cd $home\downloads\FoldingAtHome-Docker-Compose-main
 
 Copy-Item Docker_Installer-part2.ps1 -Destination "C:\Users\Public\Downloads"
 Copy-Item FAH_Setup.ps1 -Destination "C:\Users\Public\Downloads"
