@@ -35,7 +35,7 @@ wsl -l -v
 Start-Sleep -s 30
 
 
-
+cd $home\downloads\FoldingAtHome-Docker-Compose-main\FoldingAtHome-Docker-Compose-main
 
 #Docker installation
 "Downloading Docker"
